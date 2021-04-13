@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: url(/image/download.png);
+    background: url(image/download.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
