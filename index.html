@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weight converter.css">
+    <link rel="icon" href="image/blogo.jpg" type="image/gif" sizes="32x32">
+    <title>Weight converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Weight converter</div>
+        <form align="center" action="">
+            <table align="center">
+                <tr>
+                    <td><label for="">Weight In KG:</label></td>
+                    <td><input type="number" name="Kg" id="in_kg"></td>
+                    <td><input type="button" value="Convert" name="submit" onclick="check()"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Weight In Gram:</label></td>
+                    <td><input type="number" name="in_g" id="grams"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Pounds:</label></td>
+                    <td><input type="number" name="in_pounds" id="pounds"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Milligram:</label></td>
+                    <td><input type="number" name="in_mg" id="mg"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Us tonnes:</label></td>
+                    <td><input type="number" name="in_t" id="tonnes"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Ounce:</label></td>
+                    <td><input type="number" name="in_o" id="ounce"></td>
+                </tr>
+            </table>
+            <div id="grams"></div><br>
+            <input type="reset" name="reset" id="" value="Reset Form">
+            <p>Note: You can click on 'Reset form' for another conversion </p>
+        </form>
+        
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
